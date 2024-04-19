@@ -30,7 +30,7 @@ public class ex3 {
             default:
                 System.out.printf("escreva uma operaçao valida");
         }
-        System.out.println(resultado);
+        System.out.println("Seu resultado é " + resultado);
 
 
     }
