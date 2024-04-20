@@ -10,9 +10,9 @@ public class ex3 {
 
         System.out.printf("agoro escolha dois numeros: ");
 
-        int num1 = numeros.nextInt();
-        int num2 = numeros.nextInt();
-        int resultado = 0;
+        double num1 = numeros.nextdouble();
+        double num2 = numeros.nextdouble();
+        double resultado = 0;
 
         switch (sinal){
                 case "*":
