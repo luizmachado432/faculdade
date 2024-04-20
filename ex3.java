@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class ex3 {
     public static void main(String[] args) {
         Scanner numeros = new Scanner(System.in);
-
-        System.out.printf("escolha a operaçao desejada: \n * para multiplicaçao\n + para adicao\n - subtraçao \n / divisao\n:");
+        int repeticoes = -999999999;
+        while(repeticoes<999999999){System.out.printf("escolha a operaçao desejada: \n * para multiplicaçao\n + para adicao\n - subtraçao \n / divisao\n:");
 
         String sinal = numeros.next();
 
@@ -31,7 +31,7 @@ public class ex3 {
                 System.out.printf("escreva uma operaçao valida");
         }
         System.out.println("Seu resultado é " + resultado);
-
-
+        repeticoes++;
+        }
     }
 }
